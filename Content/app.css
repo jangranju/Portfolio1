@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    background-color: rgb(109, 106, 59);
+    background-color: rgb(179, 172, 76);
 }
 
 #maindiv{
@@ -37,4 +37,16 @@ a{
 
 li:hover{
     background-color:rgb(238, 208, 36) ;
+}
+
+#contactDiv{
+    margin-left: 2em;
+}
+
+#contactDiv> h2{
+    text-align: center;
+}
+
+.align-center{
+    text-align: center;
 }

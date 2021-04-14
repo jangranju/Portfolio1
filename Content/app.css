@@ -1,0 +1,40 @@
+/* custom CSS goes here */
+
+body{
+    /* background-image: url('../Assets/Images/images1.jpg');  */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgb(109, 106, 59);
+}
+
+#maindiv{
+    padding:0.2em;
+    background-color: khaki;
+    border-radius: 2em;
+}
+
+div#maindiv > ul{
+    list-style-type: none;
+}
+
+#maindiv> ul> li{
+    display: inline;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 20px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+.active{
+    background-color: rgb(190, 192, 62);
+}
+
+li:hover{
+    background-color:rgb(238, 208, 36) ;
+}

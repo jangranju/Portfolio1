@@ -1,29 +1,33 @@
 /* custom CSS goes here */
 
 body{
-    /* background-image: url('../Assets/Images/images1.jpg');  */
+    background-image: url('../Assets/Images/image2.jpg');  
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    background-color: rgb(179, 172, 76);
+    background-color:  rgb(129, 140, 143);
+    color: rgb(253, 243, 155);
 }
 
 #maindiv{
-    padding:0.2em;
-    background-color: khaki;
-    border-radius: 2em;
+    padding:0.2px;
+    background-color: rgb(253, 243, 155);
+    border-radius: 1em;
+    margin-top: 1em;
+    
 }
 
 div#maindiv > ul{
     list-style-type: none;
+    
 }
 
 #maindiv> ul> li{
     display: inline;
-    font-size: 30px;
+    font-size: 20px;
     font-family: cursive;
     font-weight: bold;
-    padding: 20px;
+    padding: 16.5px;
 }
 
 a{
@@ -32,11 +36,11 @@ a{
 }
 
 .active{
-    background-color: rgb(190, 192, 62);
+    background-color: rgb(129, 140, 143);
 }
 
-li:hover{
-    background-color:rgb(238, 208, 36) ;
+#maindiv>ul>li:hover{
+    background-color:rgb(236, 217, 104) ;
 }
 
 #contactDiv{
@@ -49,4 +53,10 @@ li:hover{
 
 .align-center{
     text-align: center;
+    color: rgb(236, 217, 104);
+}
+
+.imagediv{
+    border-radius: 6em;
+    border-style: solid;
 }
